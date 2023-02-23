@@ -9,9 +9,7 @@ html, body{
     padding: 0;
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media (max-width: 575.98px) and (min-height: 1080px) and (orientation: portrait) {
     html, body{
         -webkit-background-size: auto 100%;
         -moz-background-size: auto 100%;
@@ -42,46 +40,63 @@ html, body{
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media (min-width: 767.98px) and (min-height: 1079.98px) and (orientation: portrait) {
+        .coming-soon{
+            font-size: 18vw;
+        }
 
+        .sentence{
+            font-size: 3.5vw;
+        }
+
+        .logo-text{
+            font-size: 4vw;
+        }
+        .stretched-text
+        {
+            display: flex;
+            justify-content: space-between;
+            font-size: 2.8vw;
+        }
+
+        .stretched-text-logo
+        {
+            font-weight: normal;
+            font-size: 4vw;
+            display: flex;
+            justify-content: space-between;
+        }
+        .sofia{
+            letter-spacing: 1.2rem;
+            font-size: 2.2vw;
+        }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1366px) and (max-height: 768px) and (orientation: landscape){
     .coming-soon{
-        font-size: 18vw;
+        font-size: 6vw;
     }
-
-    .sentence{
-        font-size: 3.5vw;
-    }
-
-    .logo-text{
-        font-size: 4vw;
+    .stretched-text-logo
+    {
+        font-weight: normal;
+        font-size: 1.6vw;
+        display: flex;
+        justify-content: space-between;
     }
     .stretched-text
     {
         display: flex;
         justify-content: space-between;
-        font-size: 2.8vw;
-    }
-
-    .stretched-text-logo
-    {
-        font-weight: normal;
-        font-size: 4vw;
-        display: flex;
-        justify-content: space-between;
+        font-size: 0.8vw;
     }
     .sofia{
-        letter-spacing: 1.2rem;
-        font-size: 2.2vw;
+        letter-spacing: 0.8rem;
+        font-size: 1vw;
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 1366px) and (min-height: 768px) and (orientation: landscape){
     html, body{
         -webkit-background-size: 100vw 100vh;
         -moz-background-size: 100vw 100vh;
@@ -90,11 +105,11 @@ html, body{
     }
 
     .coming-soon{
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .sentence{
-        font-size: 1.2vw;
+        font-size: 1.8vw;
     }
 
     .stretched-text
@@ -107,7 +122,7 @@ html, body{
     .stretched-text-logo
     {
         font-weight: normal;
-        font-size: 2vw;
+        font-size: 1.6vw;
         display: flex;
         justify-content: space-between;
     }
@@ -117,7 +132,38 @@ html, body{
     }
 }
 
- /*Extra extra large devices (large laptops and desktops, 1400px and up)*/
+@media (min-width: 767.98px) and (max-height: 860px) and (orientation: portrait){
+    html, body{
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        -o-background-size: auto 100%;
+        background-size: auto 100%;
+    }
+
+    .stretched-text
+    {
+        font-size: 2.6vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .coming-soon{
+        font-size: 9.5vw;
+    }
+
+    .sentence{
+        font-size: 3.5vw;
+    }
+
+    .stretched-text-logo{
+        font-size: 4vw;
+    }
+
+    .sofia{
+        letter-spacing: 1rem;
+    }
+}
+
 @media only screen and (min-width: 1400px) {
     .coming-soon{
         font-size: 7vw;
