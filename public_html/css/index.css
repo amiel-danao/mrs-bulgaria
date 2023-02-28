@@ -1,0 +1,28 @@
+html, body{
+    background: url("../images/landing_background.jpg") no-repeat center center fixed;
+    max-height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1366px) and (min-height: 768px) and (orientation: landscape) {
+    html, body {
+        -webkit-background-size: 100vw 100vh;
+        -moz-background-size: 100vw 100vh;
+        -o-background-size: 100vw 100vh;
+        background-size: 100vw 100vh;
+    }
+}
+
+
+@media (min-width: 767.98px) and (max-height: 860px) and (orientation: portrait) {
+    html, body {
+        -webkit-background-size: auto 100%;
+        -moz-background-size: auto 100%;
+        -o-background-size: auto 100%;
+        background-size: auto 100%;
+    }
+}

@@ -1,13 +1,8 @@
 html, body{
-    background: url("../images/landing_background.jpg") no-repeat center center fixed;
     font-family: 'Poppins', sans-serif;
-    max-height: 100vh;
-    overflow-x: hidden;
-    width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
+
 
 @media (max-width: 575.98px) and (min-height: 1080px) and (orientation: portrait) {
     html, body{
@@ -97,13 +92,6 @@ html, body{
 }
 
 @media only screen and (max-width: 1366px) and (min-height: 768px) and (orientation: landscape){
-    html, body{
-        -webkit-background-size: 100vw 100vh;
-        -moz-background-size: 100vw 100vh;
-        -o-background-size: 100vw 100vh;
-        background-size: 100vw 100vh;
-    }
-
     .coming-soon{
         font-size: 8vw;
     }
@@ -195,4 +183,24 @@ html, body{
         letter-spacing: 1.8rem;
         font-size: 1.2vw;
     }
+}
+
+.navbar{
+    margin-bottom: 20px;
+}
+
+.nav-link{
+    color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity))!important;
+}
+
+
+.navbar-dark{
+    --bs-navbar-color:rgba(var(--bs-warning-rgb),var(--bs-text-opacity))!important;
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity))!important;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,193,7, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
