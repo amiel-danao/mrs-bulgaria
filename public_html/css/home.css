@@ -3,16 +3,100 @@
 }
 
 html, body{
-    background-color: black;
+
 }
 
 .section1{
-    background-image: url("../images/home_bg1.jpg");
-    opacity: 0.25;
-    background-size: auto;
-    max-height: 100vh;
-    overflow-x: hidden;
     width: 100%;
-    height: 100%;
-    position: absolute
+    position: absolute;
+    background: url("../images/home_bg1.jpg") no-repeat center center;
 }
+
+.overlay-texts{
+    z-index: 1000;
+}
+
+
+.dim-overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.estimate-form .form-control, .estimate-form .input-group-text {
+    border:none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.estimate-form .input-group-text{
+    font-size: 2rem;
+}
+
+.input-icon{
+    color: black;
+    background-color: transparent;
+}
+
+.no-bullet-list{
+    list-style: none;
+}
+
+.no-bullet-list li{
+    line-height: 2rem;
+}
+
+.no-bullet-list .fa-check-circle{
+    font-size: 1.35rem;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.location-list{
+    list-style: none;
+}
+
+.location-list li::before {
+    font-size: 2rem;
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgba(var(--bs-warning-rgb),var(--bs-bg-opacity))!important;
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+}
+
+footer .nav .nav-item .nav-link{
+    color: white !important;
+}
+
+.image-blurred-edge {
+    background-image: url('../images/drill_gun.jpg');
+    background-position-x: 75%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 575.98px) and (min-height: 1080px) and (orientation: portrait) {
+    .quote-button {
+        width: 100%;
+    }
+    .section1{
+        height: auto;
+    }
+    .fs-4{
+        font-size: 1.4rem !important;
+    }
+    .display-2{
+        font-size: 2.5rem;
+    }
+    .h3{
+        font-size: 2rem;
+    }
+}
+
