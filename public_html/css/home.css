@@ -16,6 +16,12 @@ html, body{
     z-index: 1000;
 }
 
+.mission-image div{
+    background-image: url("../images/our_mission.jpg");
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
 
 .dim-overlay{
     height: 100%;
@@ -98,5 +104,46 @@ footer .nav .nav-item .nav-link{
     .h3{
         font-size: 2rem;
     }
+    .mission-image{
+        height: 16vh;
+    }
+    .learn-more{
+        width: 100%;
+    }
+    .our-services{
+        background-image: url("../images/our_services.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30vh;
+        background-size: contain;
+    }
+    .footer-logo{
+        margin-right:auto;
+        margin-left:auto;
+    }
+    footer ul, .footer-title{
+        text-align: center;
+    }
 }
 
+@media (min-width: 767.98px) and (min-height: 1079.98px) and (orientation: portrait) {
+    .quote-button {
+        width: 100%;
+    }
+    .mission-image{
+        height: 20vh;
+    }
+    .learn-more{
+        width: 40%;
+    }
+    .our-services{
+        background-image: url("../images/our_services.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        background-size: cover;
+    }
+    footer ul, .footer-title{
+        text-align: left;
+    }
+}
