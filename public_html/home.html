@@ -18,15 +18,15 @@
   </head>
   <body class="bg-white">
 
-  <nav class="navbar navbar-expand-lg navbar-dark text-warning mb-0" aria-label="Tenth navbar example">
+  <nav class="navbar navbar-expand-lg navbar-dark text-warning mb-0 " aria-label="Tenth navbar example">
     <div class="container">
-      <div class="row w-100">
-        <div class="col-12 p-3">
+      <div class="row">
+        <div class="col-12">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo_with_text.png" class="img-fluid w-50 px-5 d-inline-block align-text-top" alt="logo">
+            <img src="images/logo_with_text.png" class="img-fluid py-xl-2 px-5 d-inline-block align-text-top" alt="logo">
           </a>
         </div>
-        <div class="col-12">
+        <div class="col-12 toggler">
           <button class="navbar-toggler mx-auto d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-close"><i class="bi bi-x-lg"></i></span>
@@ -34,8 +34,8 @@
         </div>
       </div>
 
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-        <ul class="navbar-nav me-3">
+      <div class="collapse navbar-collapse justify-content-md-center me-md-0 pe-md-0 w-100" id="navbarsExample08">
+        <ul class="navbar-nav me-3 me-md-0">
           <li class="nav-item mx-4">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -71,8 +71,8 @@
         </div>
       </div>
 
-  <div class="row px-1 px-sm-4 mt-5 mb-sm-5 pb-sm-4">
-    <div class="col-12 bg-white overlay-texts">
+  <div class="row px-1 px-xl-0 px-sm-4 mt-5 mb-sm-5 pb-sm-4">
+    <div class="col-12 col-xl-6 bg-white overlay-texts">
       <form method="post" class="form py-4 px-1 p-sm-5 estimate-form">
         <p class="py-2 text-black h3 fw-bold">Get a Free Estimate Today!</p>
         <p class="py-2 text-black h4">Fill our form to get started.</p>
@@ -111,21 +111,25 @@
     <div class="col-12 overlay-texts mission-image">
       <div class="w-100"></div>
     </div>
-    <div class="col-12 overlay-texts">
+    <div class="col-12 col-xl-6 overlay-texts">
       <p class="fs-4 text-uppercase text-warning fw-bold">Mrs Mission</p>
       <p class="h3 text-uppercase text-black fw-bolder">Our Mission to you</p>
       <p class="fs-4 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="col-xl-6 overlay-texts mission-image2">
+      <div class="w-75 float-end"></div>
+      <div class="img2 float-start"></div>
     </div>
     <div class="col-12 p-3">
       <a class="p-3 px-sm-5 btn bg-warning text-uppercase text-white learn-more fs-3" type="button" href="#">Learn More</a>
     </div>
   </div>
 
-  <div class="row px-0">
-    <div class="col-12 px-0 col-sm-4">
+  <div class="row px-0 mb-xl-5">
+    <div class="col-12 px-0 col-sm-4 col-xl-6">
       <div class="px-0 our-services" alt="our services"></div>
     </div>
-    <div class="col-12 col-sm-8 p-4">
+    <div class="col-12 col-sm-8 col-xl-6 p-4 p-xl-5 our-services-card bg-white my-xl-5">
       <p class="fs-4 text-uppercase text-warning fw-bold">Our Services</p>
       <p class="h3 text-uppercase text-black fw-bolder">Lorem ipsum dolor sit amet, consectetur</p>
       <p class="fs-4 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -139,13 +143,13 @@
     </div>
   </div>
 
-  <div class="row px-0">
-    <div class="col-12 col-sm-8 p-4">
+  <div class="row px-0 px-xl-4 mt-xl-5 pt-xl-5">
+    <div class="col-12 col-sm-8 col-xl-6 p-4">
       <p class="fs-4 text-uppercase text-warning fw-bold">Testimonials</p>
       <p class="h3 text-uppercase text-black fw-bolder">Lorem ipsum dolor sit amet, consectetur</p>
       <p class="fs-5 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="col-12 col-sm-4 p-3 d-flex align-items-end">
+    <div class="col-12 col-sm-4 col-xl-3 offset-xl-3 p-3 d-flex align-items-sm-end align-items-xl-center">
       <a class="p-3 p-sm-4 fs-4 align-bottom btn bg-warning text-uppercase text-white w-100" type="button" href="#">Leave a review</a>
     </div>
     <div class="col-12 p-2">
@@ -245,9 +249,9 @@
     </div>
   </div>
 
-  <div class="row px-0 companies">
-    <div class="col">
-      <table>
+  <div class="row px-0 px-xl-5 companies">
+    <div class="col col-xl-12">
+      <table class="w-100">
         <th class="p-2"><img class="img-fluid align-middle" src="images/company_logo1.png"></th>
         <th class="p-2"><img class="img-fluid align-middle" src="images/company_logo2.png"></th>
         <th class="p-2"><img class="img-fluid align-middle" src="images/company_logo3.png"></th>
@@ -258,13 +262,13 @@
     </div>
   </div>
   <hr class="text-secondary py-3">
-  <div class="row px-0 pt-3">
-    <div class="col-12 col-sm-6 px-4">
+  <div class="row px-0 pt-3 locations p-xl-5">
+    <div class="col-12 col-sm-6 px-4 col-xl-5 bg-white ps-xl-5 py-xl-3 offset-xl-1">
       <p class="fs-4 text-uppercase text-warning fw-bold">Locations</p>
-      <p class="h3 text-black fw-bold">Wherever your need us,
+      <p class="h1 text-black fw-bold">Wherever your need us,
         frontline is there</p>
     </div>
-    <div class="col-12 col-sm-6 px-4">
+    <div class="col-12 col-sm-6 col-xl-5 px-4 bg-white py-xl-3 pe-xl-5">
       <ul class="location-list">
         <li>Lorem ipsum dolor sit amet, consectetur</li>
         <li>Lorem ipsum dolor sit amet, consectetur</li>
@@ -273,44 +277,45 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row map">
     <div class="col-12">
       <img class="img-fluid" id="map" src="images/map.jpg" alt="map">
     </div>
   </div>
-  <div class="row image-blurred-edge align-items-center">
-    <div class="col-12 p-4">
+  <div class="row image-blurred-edge align-items-center pb-xl-5 px-xl-5">
+    <div class="col-12 col-xl-8 p-4">
       <p class="fs-4 text-uppercase text-warning fw-bold">Testimonials</p>
       <p class="h3 text-uppercase text-black fw-bolder">Lorem ipsum dolor sit amet, consectetur</p>
       <p class="fs-4 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="col-6 py-3">
+    <div class="col-xl-4"></div>
+    <div class="col-6 col-xl-2 py-3">
       <a class="p-3 btn bg-warning text-uppercase text-white w-100" type="button" href="#">Contact Us</a>
     </div>
-    <div class="col-6 p-3">
+    <div class="col-6 col-xl-6 p-3">
       <p class="text-black py-0 my-auto"><i class="bi bi-telephone-fill me-2"></i>123-456-7890</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row news-letter px-xl-3">
     <div class="col-12 px-0 px-sm-4">
       <form class="form py-5 bg-warning px-2 px-sm-5 shadow" method="post">
         <div class="row">
-          <div class="col-12 text-center">
-            <p class="fs-2 fw-bold text-white">Get a Free Estimate Today!</p>
+          <div class="col-12 col-xl-4 text-center">
+            <p class="h4 fw-bold text-white">Get a Free Estimate Today!</p>
             <p class="fs-4 text-white">Fill out form to get started</p>
           </div>
-          <div class="col-12 col-sm-3 mb-2">
+          <div class="col-12 col-sm-3 col-xl-2 mb-2">
             <input type="text" class="form-control py-4" placeholder="Full Name">
           </div>
-          <div class="col-12 col-sm-3 mb-2">
+          <div class="col-12 col-sm-3 col-xl-2 mb-2">
             <input type="email" class="form-control py-4" placeholder="Email">
           </div>
-          <div class="col-12 col-sm-3 mb-2">
+          <div class="col-12 col-sm-3 col-xl-2 mb-2">
             <select class="form-select py-4">
               <option>Service</option>
             </select>
           </div>
-          <div class="col-12 col-sm-3 mb-2">
+          <div class="col-12 col-sm-3 col-xl-2 mb-2">
             <button type="submit" class="btn bg-black text-white text-uppercase py-4 w-100">Get Started</button>
           </div>
         </div>
@@ -318,15 +323,15 @@
     </div>
   </div>
 
-  <footer class="row px-sm-4 py-5 my-5 bg-black">
-    <div class="col-12 col-sm-6 p-5 p-sm-1 mb-3 text-white footer-title">
+  <footer class="row px-sm-4 py-5 my-5 bg-black px-xl-5 footer">
+    <div class="col-12 col-sm-6 col-xl-3 p-5 p-sm-1 mb-3 text-white footer-title">
       <div class="row">
         <div class="col-12">
           <a href="index.html" class="d-flex align-items-center link-dark text-decoration-none mb-3">
             <img class="img-fluid w-50 footer-logo pb-4" src="images/logo_with_text.png" alt="logo">
           </a>
         </div>
-        <div class="col-12">
+        <div class="col-12 col-xl-12">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit </p>
         </div>
         <div class="col-12">
@@ -338,9 +343,10 @@
     </div>
 
 
-    <div class="col-12 col-sm-6 mb-3">
-      <p class="h4 text-warning text-uppercase footer-title">Services</p>
-      <ul class="nav flex-column">
+    <div class="footer-column col-12 col-sm-6 col-xl-2 offset-xl-2 mb-3">
+
+      <ul class="nav flex-column mx-auto mx-sm-0 mx-xl-0">
+        <p class="h4 text-warning text-uppercase footer-title mb-xl-3">Services</p>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">item#1</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">item#2</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">item#3</a></li>
@@ -348,9 +354,10 @@
       </ul>
     </div>
 
-    <div class="col-12 col-sm-6 mb-3">
-      <p class="h4 text-warning text-uppercase footer-title">Extra Services</p>
+    <div class="footer-column col-12 col-sm-6 col-xl-2 mb-3">
+
       <ul class="nav flex-column">
+        <p class="h4 text-warning text-uppercase footer-title mb-xl-3">Extra Services</p>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">item#1</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">item#2</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">item#3</a></li>
@@ -358,9 +365,10 @@
       </ul>
     </div>
 
-    <div class="col-12 col-sm-6 mb-3">
-      <p class="h4 text-warning text-uppercase footer-title">Contact Info</p>
+    <div class="footer-column col-12 col-sm-6 col-xl-3 mb-3">
+
       <ul class="nav flex-column">
+        <p class="h4 text-warning text-uppercase footer-title mb-xl-3">Contact Info</p>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><i class="bi bi-telephone-fill text-warning me-3"></i>123-456-7890</a></li>
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"><i class="bi bi-envelope-fill text-warning me-3"></i>info@mrs-bulgaris.com</a></li>
       </ul>
@@ -398,7 +406,7 @@
               nav:false
             },
             1000:{
-              items:5,
+              items:4,
               nav:true,
               loop:false
             }

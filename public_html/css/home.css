@@ -124,6 +124,9 @@ footer .nav .nav-item .nav-link{
     footer ul, .footer-title{
         text-align: center;
     }
+    .navbar-brand img{
+        width: 50%;
+    }
 }
 
 @media (min-width: 767.98px) and (min-height: 1079.98px) and (orientation: portrait) {
@@ -145,5 +148,82 @@ footer .nav .nav-item .nav-link{
     }
     footer ul, .footer-title{
         text-align: left;
+    }
+    .navbar-brand img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1366px) and (max-height: 768px) and (orientation: landscape) {
+    .toggler{
+        display: none;
+    }
+    .navbar-brand img{
+        width: 60%;
+    }
+    .mission-image{
+        display: none;
+    }
+    .mission-image2 div{
+        width: 75%;
+        height: 100%;
+        background-image: url("../images/our_mission.jpg");
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+    .mission-image2 .img2{
+        width: 50%;
+        height: 100%;
+        bottom: 50%;
+        background-image: url("../images/our_mission2.jpg");
+        background-position-y: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .mission-image2{
+        height: 40vh;
+
+        display: inline-block;
+    }
+    .our-services{
+        background-image: url("../images/our_services.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 110%;
+        background-size: cover;
+    }
+    .our-services-card{
+        left:-5%;
+        top:5%;
+        position: relative;
+    }
+    .locations{
+        z-index: 1000;
+        /*top:10%;*/
+        position: relative;
+    }
+    .map{
+        top:-35%;
+        position: relative;
+    }
+    .image-blurred-edge {
+        top:-35%;
+        position: relative;
+    }
+    .news-letter{
+        z-index: 1000;
+        top:-40%;
+        position: relative;
+    }
+    .footer{
+        padding-top: 10rem !important;
+        top:-60%;
+        position: relative;
+    }
+    .footer-title{
+        font-size: 16px !important;
+    }
+    .footer-column{
+        margin-top: 10%;
     }
 }
