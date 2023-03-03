@@ -290,3 +290,225 @@ footer .nav .nav-item .nav-link{
         margin-top: 15%;
     }
 }
+
+@media only screen and (max-width: 1366px) and (min-height: 768px) and (orientation: landscape) {
+    .navbar-brand img{
+        width: 100%;
+    }
+    .toggler{
+        display: none;
+    }
+    .navbar-row{
+        width: 25% !important;
+    }
+    .mission-image2 div{
+        width: 75%;
+        height: 100%;
+        background-image: url("../images/our_mission.jpg");
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+    .mission-image2 .img2{
+        width: 50%;
+        height: 90%;
+        bottom: 60%;
+        background-image: url("../images/our_mission2.jpg");
+        background-position-y: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .mission-image2{
+        height: 40vh;
+        display: inline-block;
+    }
+    .mrs-mission{
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 5%;
+    }
+    .mrs-mission div .fs-4{
+        font-size:1rem !important;
+    }
+    .our-services{
+        /*margin-top: 20%;*/
+        background-image: url("../images/our_services.jpg");
+        background-repeat: no-repeat;
+        background-position: 30%;
+        height: 110%;
+        background-size: cover;
+    }
+
+    .our-services-card{
+        margin-top: 25%;
+        left:-5%;
+        top:25%;
+        position: relative;
+    }
+    .our-services-text{
+        font-size: 1rem !important;
+    }
+    .our-services-title{
+        font-size: 2.2rem !important;
+    }
+    .learn-more{
+        width: 50%;
+    }
+    .locations{
+        z-index: 1000;
+        /*top:10%;*/
+        position: relative;
+    }
+    .map{
+        top:-30%;
+        position: relative;
+    }
+    .image-blurred-edge {
+        top:-35%;
+        position: relative;
+    }
+    .news-letter{
+        z-index: 1000;
+        top:-40%;
+        position: relative;
+    }
+    .footer{
+        padding-top: 10rem !important;
+        top:-60%;
+        position: relative;
+    }
+    .footer-title{
+        font-size: 16px !important;
+    }
+    .footer-column{
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .section1{
+        height: 80% !important;
+    }
+    .navbar-brand img{
+        width: 75%;
+    }
+    .toggler{
+        display: none;
+    }
+    .navbar-row{
+        width: 35% !important;
+    }
+    .mission-image2 div{
+        width: 75%;
+        height: 100%;
+        background-image: url("../images/our_mission.jpg");
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+    .mission-image2 .img2{
+        width: 50%;
+        height: 90%;
+        bottom: 60%;
+        background-image: url("../images/our_mission2.jpg");
+        background-position-y: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .mission-image2{
+        height: 40vh;
+        display: inline-block;
+    }
+    .mrs-mission{
+        padding-left: 8rem!important;
+        padding-right: 8rem!important;
+        top: -10%;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    .mrs-mission-title{
+        font-size: 3rem !important;
+    }
+    .mrs-mission-text{
+        padding-right: 20%;
+    }
+    .mrs-mission div .fs-4{
+        font-size:1rem !important;
+    }
+    .our-services{
+        /*margin-top: 20%;*/
+        background-image: url("../images/our_services.jpg");
+        background-repeat: no-repeat;
+        background-position: 30%;
+        height: 110%;
+        background-size: cover;
+    }
+
+    .our-services-card{
+        margin-top: 25%;
+        left:-25%;
+        top:25%;
+        position: relative;
+    }
+    .our-services-text{
+        margin-bottom: 5%;
+        font-size: 1rem !important;
+    }
+    .our-services-title{
+        font-size: 2.2rem !important;
+    }
+    .no-bullet-list{
+        margin-bottom: 5%;
+    }
+    .learn-more{
+        width: 50%;
+    }
+    .ratings{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    .companies{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    .locations{
+        z-index: 1000;
+        top:10%;
+        position: relative;
+    }
+    .map{
+        top:-30%;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        position: relative;
+    }
+    .image-blurred-edge {
+        top:-35%;
+        padding-top: 5% !important;
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+        position: relative;
+    }
+    .image-blurred-edge-text{
+        margin-bottom: 3rem !important;
+        font-size: 2.5rem !important;
+    }
+    .news-letter{
+        padding-left: 14% !important;
+        padding-right: 14% !important;
+        z-index: 1000;
+        top:-40%;
+        position: relative;
+    }
+    .footer{
+        padding-left: 14% !important;
+        padding-right: 14% !important;
+        padding-top: 10rem !important;
+        top:-60%;
+        position: relative;
+    }
+    .footer-title{
+        font-size: 16px !important;
+    }
+    .footer-column{
+        margin-top: 10%;
+    }
+}
